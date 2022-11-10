@@ -11,21 +11,35 @@ body{
 logo and navigation link
 */
 .nav-bar{
-  /* border: 1px solid red; */
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  margin-bottom:70px ;
-  background-color: maroon;
-  color: white;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom:70px ;
+    /* background-color: maroon; */
+    background: hsla(0, 100%, 25%, 1);
+    background: linear-gradient(225deg, hsla(0, 100%, 25%, 1) 0%, hsla(0, 100%, 17%, 1) 100%);
+    background: -moz-linear-gradient(225deg, hsla(0, 100%, 25%, 1) 0%, hsla(0, 100%, 17%, 1) 100%);
+    background: -webkit-linear-gradient(225deg, hsla(0, 100%, 25%, 1) 0%, hsla(0, 100%, 17%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#800000", endColorstr="#550000", GradientType=1 );
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
 }
 .nav-logo{
-    border: 1px solid green;
-    background-color: white;
-    width: 50px;
-    height: 50px;
-    margin: 10px;
-
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: wheat;
+}
+.logo-name{
+    font-family: 'Allura', cursive;
+    color: wheat;
+    margin-left: 5px;
 }
 .nav-links{
     /* border: 1px solid black; */
@@ -54,6 +68,9 @@ logo and navigation link
     /* border: 1px solid black; */
     display: flex;
     margin: 40px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 /* style main bio text section */
 .home-text-section{
@@ -79,15 +96,20 @@ logo and navigation link
     background-color: maroon;
     color: white;
     padding: 5px 10px;
-    font-size: large;
+    /* font-size: large; */
     border-radius: 15px;
+    border: 1px solid wheat;
 }
 
 
 /* style image section */
 .home-img-section{
-    border: 1px solid green;
-    width: 150vw;
-    height: auto;
     background-color: black;
+    border: 1px solid green;
+    width: 100vw;
+    height: 50vh;
 }
+/* .profile-img{
+    width: 60%;
+    height: auto;
+} */
