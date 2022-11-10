@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+}
+/* navigation bar section styling
+logo and navigation link
+*/
+.nav-bar{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom:70px ;
+  background-color: maroon;
+  color: white;
+}
+.nav-logo{
+    border: 1px solid green;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+}
+.nav-links{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    margin-right: 10px;
+    text-decoration: none;
+}
+.nav-item:hover{
+    font-size: larger;
+    font-weight: bolder;
+}
+.nav-item:visited{
+    color: inherit;
+}
+.nav-item:active{
+    font-size:larger;
+    font-style: italic;
+    color: red;
+}
+  /* style main section of home page */
+#main-section{
+    /* border: 1px solid black; */
+    display: flex;
+    margin: 40px;
+}
+/* style main bio text section */
+.home-text-section{
+    /* border: 1px solid red; */
+    margin: 20px;
+    padding: 10px;
+}
+
+.header-intro{
+    /* border: 1px solid green; */
+    margin-bottom: 10px;
+}
+.highlighted-text{
+    color: maroon;
+    font-family: 'Courier Prime', monospace;
+    font-size: larger;
+}
+.description{
+    /* border: 1px solid green; */
+    margin-bottom: 15px;
+}
+.about-me-btn{
+    background-color: maroon;
+    color: white;
+    padding: 5px 10px;
+    font-size: large;
+    border-radius: 15px;
+}
+
+
+/* style image section */
+.home-img-section{
+    border: 1px solid green;
+    width: 150vw;
+    height: auto;
+    background-color: black;
+}
